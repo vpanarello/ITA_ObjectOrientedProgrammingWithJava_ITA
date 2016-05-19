@@ -1,0 +1,18 @@
+#folder to be ignored by Git application
+
+.metadata/
+.recommenders/
+RemoteSystemsTempFiles/
+
+S02.02-EstaticaVsInstancia/
+S02.03-Quiz/
+S02.06-Qual o preço da pizza/
+S03.01-Licoes/
+S03.03-AtividadeCorrecoes/
+S04.02-ComoFuncionaHeranca/
+S04.03-ModificadoresDeAcesso/
+S04.04-SobreposiçãoDeMetodos/
+S05.01-Encapsulamento_AcoplamentoEntreClasses/
+S05.02-InterfacesEmJava/
+S06.01-Polimorfismo/
+S06.02-ExcecoesEmJava/

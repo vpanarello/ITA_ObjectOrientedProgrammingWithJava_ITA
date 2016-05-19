@@ -1,0 +1,15 @@
+# Carrinho de compras
+
+- HashMap <Produto, quantidadeAdicionada> OK
+
+- metodo: adicionaProduto(obj, quantidade) OK
+
+- metodo: removeProduto(obj); OK
+
+- metodo: getTotalValorCompra OK
+
+
+# Testes classes separadas
+
+- Classe Produto
+- Classe Carrinho

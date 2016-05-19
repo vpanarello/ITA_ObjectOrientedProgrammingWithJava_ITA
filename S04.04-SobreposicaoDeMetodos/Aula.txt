@@ -1,0 +1,37 @@
+## Sobreposição de métodos
+
+# Exemplo de implementação
+
+Classe: Empregado
+	Método: salarioLiquido {
+		return salario * 0.85; }
+
+Classe SubEmpregado extends Empregado
+	Método01: salarioLiquido {
+		  return salario*0.85 + bonus; }
+	
+	# palavra-chave "super" invoca o método da superclasse.
+
+	Método02: salarioLiquido {
+		  return super.salarioLiquido + bonus; }
+
+- O metodo da classe "SubEmpregado" está sobrepondo o método da classe empregado.
+
+# palavra-chave "final".
+- Aplicada em uma Classe impede que uma classe seja estendida "extends"
+- Aplicada a um método impede que seja sobreescrito por suas subclasses.
+- Aplicada a atributos/variáveis impede que ela tenha mudança de referência em caso de objetos e não permite modificação em casos de inteiros.
+
+
+## Classes Abstratas
+
+
+- Trata-se de classes que podem ter tudo que uma classe normal tem, porém não pode ser instanciada. Tem objetivo de se definir um contrato da classe, porém o que cada método irá fazer caberá as subclasses.
+
+- métodos abstratos tem somente uma assinatura do método, sua implementação ficará sob responsabilidade de suas subclasses.
+
+## Cadeia de Construtores
+
+Toda subclasse tem um contrutor de chama o super() e assim segue em cadeia. Caso uma superclasse tenha um construtor com argumentos, os mesmos argumentos devem ser passados pelo método super() implementados em uma subclasse.
+
+
